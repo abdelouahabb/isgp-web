@@ -1,0 +1,30 @@
+form {
+    margin: 1em;
+    border-radius: 1em;
+}
+body {
+    /* background-size: 20%;background-image: url(/static/img/bg.png);background-position: center; */
+    background-size: auto;
+    background-image: url(/static/img/bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.btn, .btn-large, .btn-small {
+    margin-bottom: 1em;
+    margin-left : 1em;
+}
+label {
+    font-family: fjala;
+}
+input:not(.exclu) {
+    color: white !important
+}
+.sxx {
+    border: solid #ffffff9c 1px;
+    border-radius: 1em;
+    text-align: center;
+    margin: 1em;
+    padding: 1em;
+}

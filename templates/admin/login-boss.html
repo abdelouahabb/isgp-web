@@ -1,0 +1,31 @@
+{% include '../headers/extra.html' %}
+
+
+<div class="row">
+  <form method="post" action="/admin/login" class="col l6 offset-l3 s12 m12 z-depth-3">
+  <img src="{{ static_url('img/zenz.png')}}" width="100%">
+  <p style="text-align: end;font-family: monospace;font-weight: bold;margin-top: -1em;">{{version}}</p>
+    {% raw xsrf_form_html() %}
+
+    <div class="row">
+      <div class="input-field col s12">
+        <label for="login">Nom de l'utilisateur</label>
+        <input required type="text" name="login" id="login" autofocus>
+      </div>
+    </div>
+    <div class="row">
+      <div class="input-field col s12">
+        <label for="password">Mot de passe</label>
+        <input required type="password" name="pwd" id="password">
+      </div>
+    </div>
+
+    <button class="waves-effect waves-light big btn-large  blue darken-4">Login
+      <i class="material-icons right">lock_open</i>
+    </button>
+  </form>
+</div>
+</div>
+</body>
+
+</html>

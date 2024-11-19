@@ -1,0 +1,58 @@
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Roboto'), local('Roboto-Regular'), url(/static/fonts/roboto.woff2) format('woff2');
+  }
+  @font-face {
+    font-family: 'lato';
+    font-style: normal;
+    font-weight: normal;
+    src: url(/static/fonts/lato-regular.woff2) format('woff2');
+  }
+  @font-face {
+    font-family: 'lato';
+    font-style: normal;
+    font-weight: bold;
+    src: url(/static/fonts/lato-bold.woff2) format('woff2');
+  }
+  @font-face {
+    font-family: 'dance';
+    font-style: normal;
+    font-weight: normal;
+    src: url(/static/fonts/dance.woff2) format('woff2');
+  }
+  @font-face {
+    font-family: 'bar';
+    font-style: normal;
+    font-weight: normal;
+    src: url(/static/fonts/bar.woff2) format('woff2');
+  }
+  @font-face {
+    font-family: 'condensed';
+    font-style: normal;
+    font-weight: bold;
+    font-stretch: condensed;
+    src: url(/static/fonts/condensed.woff2) format('woff2');
+  }
+  @font-face {
+    font-family: 'condreg';
+    font-style: normal;
+    font-weight: normal;
+    font-stretch: condensed;
+    src: url(/static/fonts/condreg.woff2) format('woff2');
+  }
+  @font-face {
+    font-family: 'galeries';
+    font-style: normal;
+    font-weight: normal;
+    font-stretch: condensed;
+    src: url(/static/fonts/galeries.woff2) format('woff2');
+  }
+  @font-face {
+    font-family: 'merchant';
+    font-style: normal;
+    font-weight: normal;
+    font-stretch: condensed;
+    src: url(/static/fonts/merchant.woff2) format('woff2');
+  }
