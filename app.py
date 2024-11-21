@@ -17,6 +17,7 @@ import passlib.handlers.argon2
 
 
 stock_cookie = secrets.token_hex(32)
+
 conn = apsw.Connection("...")
 cur = conn.cursor()
 

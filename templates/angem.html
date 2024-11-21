@@ -1,0 +1,5 @@
+<form action="/information" method="POST">
+{% raw xsrf_form_html() %}
+    <input type="text" name="nom">
+    <button>Envoyer</button>
+</form>
